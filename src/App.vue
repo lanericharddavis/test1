@@ -22,7 +22,7 @@
       <h4 v-if="state.value >= 60 && state.value < 70">You still clicking?</h4>
       <h4 v-if="state.value >= 70 && state.value < 80">Awesome! This is the end btw.</h4>
       <h4 v-if="state.value >= 80 && state.value < 90">Seriously, go home.</h4>
-      <h4 v-if="state.value >= 90 && state.value < 100">I'm not playing anymore, I'm done.</h4>
+      <h4 v-if="state.value >= 90 && state.value < 100">I'm not playing anymore, you lost your clicking privileges.</h4>
       <h4 v-if="state.value >= 100">No more clicking.  For real this time.</h4>
       </div>
     </div>
